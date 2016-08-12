@@ -16,8 +16,7 @@ class SweetsTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        dbRef = FIRDatabase.database().reference().child("sweet-items")
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -28,8 +27,6 @@ class SweetsTableViewController: UITableViewController {
     @IBAction func addSweet(sender: AnyObject) {
         
         
-        let sweetAlert = UIAlertController(title: "New Sweet", message: "Enter your sweet", preferredStyle: .Alert)
-    
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
