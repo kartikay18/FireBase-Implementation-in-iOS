@@ -8,6 +8,7 @@ target 'FireSwiffer' do
   # Pods for FireSwiffer
 	pod 'Firebase'
     pod 'Firebase/Auth'
+    pod 'Firebase/Database'
 
   target 'FireSwifferTests' do
     inherit! :search_paths
